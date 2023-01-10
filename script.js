@@ -25,34 +25,6 @@ function encriptarTexto(){
 }
 
 function desencriptarTexto(){
-    /*
-    var texto = document.getElementById("caja-normal");
-    var textoEn = document.getElementById("caja-encriptada").value;
-    var letra = [];
-    var enc = [];
-    var i;
-
-    for( i=0;i<textoEn.length;i++){
-        letra.push(textoEn.charAt(i).toLowerCase());         
-    }letra.push("");
-
-    for( i=0;i<letra.length;i++){
-        if(letra[i]=='a'){enc.push('a'); i+=2}
-        if(letra[i]=='e'){enc.push('e');i+=5}
-        if(letra[i]=='i'){enc.push('i');i=+4}
-        if(letra[i]=='o'){enc.push('o'); i+=4}
-        if(letra[i]=='u'){enc.push('u');i+=4}
-        if(letra[i]==' '){enc.push(' ');}
-        if(letra[i] != 'a','e','i','o','u'){enc.push(letra[i]);}
-    }
-
-    if(texto.value != ''){
-        texto.value='';
-    }
-    
-    for(i=0;i<enc.length;i++){
-        texto.value+= enc[i];
-    }*/
     var texto = document.getElementById("caja-normal").value;
     var textoEn = document.getElementById("caja-encriptada");
     let once = ['ai', 'enter', 'imes', 'ober', 'ufat'];
