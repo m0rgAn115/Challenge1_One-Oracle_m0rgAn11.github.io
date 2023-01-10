@@ -243,7 +243,6 @@ footer{
     font-size: 50px;
     font-weight: 500;
     line-height: 19px;
-    -webkit-appearance: none;
     -webkit-tap-highlight-color: transparent;
     padding: 17px 29px 17px 100px;
     transition: background 0.3s;
