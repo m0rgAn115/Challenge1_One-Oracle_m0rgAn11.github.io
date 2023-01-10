@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador/Desencriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Sofia+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+        <link rel="script" href="script.js">
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <header>
+            <div class="cabezera">
+                
+                <h1>Encriptador/Desencriptador</h1>
+            </div>
+        </header>
+        <main>
+            
+                <div class="cajas">
+                    <div class ="caja1">
+                        <textarea class="input-padron1" placeholder="Introduzca un Texto para Encriptar (No acentos ni caracteres especiales)." id="caja-normal"></textarea>         
+                    </div>
+                    <div class="caja2">
+                        <textarea class="input-padron2" placeholder="Aqui se mostrara su texto Encriptado o Descencriptado" id="caja-encriptada" readonly></textarea> 
+                    </div>
+                </div>
+
+            
+            <div class="btn">
+                <button onclick="encriptarTexto()" id="btnEncriptar">Encriptar</button>
+                <button onclick="desencriptarTexto()" id="btnDesencriptar">Desencriptar</button>
+                <button id="limpiar" onclick="limpiar()">Limpiar</button>
+                <button class="continue-application" onclick="copyToClipBoard()" id="copiador">
+                    <div class="esp1">
+                        <div class="pencil"></div>
+                        <div class="folder">
+                            <div class="top">
+                                <svg viewBox="0 0 24 27">
+                                    <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                                </svg>
+                            </div>
+                            <div class="paper"></div>
+                        </div>
+                    </div>
+                    Copiar al 
+                    Portapapeles.
+                </button>
+            </div>
+        </main>
+        <footer>
+            <img src="Imagenes/Logo.png" alt="Logo" class="logo">
+            <p class="copyright">&copy Copyright A. Morgan - 2022</p>
+        </footer>
+
+        
+    </body>
+    
+    
+</html>
