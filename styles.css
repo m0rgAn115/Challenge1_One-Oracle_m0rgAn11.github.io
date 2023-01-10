@@ -1,7 +1,7 @@
 body{
     background: linear-gradient(#111111 30%,#000000);
     font-family: 'Montserrat', sans-serif;
-    zoom: auto;
+    zoom: 50%;
 }
 
 .cabezera h1{
